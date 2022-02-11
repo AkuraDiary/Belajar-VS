@@ -9,7 +9,7 @@
 
     <Canvas>
         <Label x:Name="lblName" Content="Name" Canvas.Left="19" Canvas.Top="25"/>
-        <TextBox x:Name="txtName" Canvas.Left="72" TextWrapping="Wrap" Text="TextBox" Canvas.Top="27" Width="200"/>
+        <TextBox x:Name="txtName" Canvas.Left="72" TextWrapping="Wrap" Text="" Canvas.Top="27" Width="200"/>
         <Button x:Name="btnOk" Content="OK" Canvas.Left="25" Canvas.Top="64" Width="68"/>
         <Button x:Name="txtMessage" Content="Message" Canvas.Left="116" Canvas.Top="64" Width="68"/>
         <Button x:Name="btnExit" Content="Exit" Canvas.Left="198" Canvas.Top="64" Width="68"/>
