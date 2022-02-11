@@ -13,6 +13,16 @@
         <Button x:Name="btnOk" Content="OK" Canvas.Left="25" Canvas.Top="64" Width="68"/>
         <Button x:Name="txtMessage" Content="Message" Canvas.Left="116" Canvas.Top="64" Width="68"/>
         <Button x:Name="btnExit" Content="Exit" Canvas.Left="198" Canvas.Top="64" Width="68"/>
+        <TextBox x:Name="txtAddVal1" Canvas.Left="25" TextWrapping="Wrap" Text="" Canvas.Top="111" Width="55"/>
+        <Button x:Name="btnAddValues" Content="+" Canvas.Left="90" Canvas.Top="111" Width="20"/>
+        <TextBox x:Name="txtAddVal2" Canvas.Left="122" TextWrapping="Wrap" Text="" Canvas.Top="112" Width="55"/>
+        <Label x:Name="lblAddEqual" Content="=" Canvas.Left="182" Canvas.Top="109"/>
+        <TextBox x:Name="txtSumAnswer" Canvas.Left="211" TextWrapping="Wrap" Text="" Canvas.Top="113" Width="55"/>
+        <TextBox x:Name="txtDivideVal1" Canvas.Left="25" TextWrapping="Wrap" Text="" Canvas.Top="156" Width="55"/>
+        <Button x:Name="btnDivideValues" Content="/" Canvas.Left="90" Canvas.Top="156" Width="20"/>
+        <TextBox x:Name="txtDivideVal2" Canvas.Left="122" TextWrapping="Wrap" Text="" Canvas.Top="158" Width="55"/>
+        <Label x:Name="lblDivideEqual" Content="=" Canvas.Left="182" Canvas.Top="154"/>
+        <TextBox x:Name="txtDivideAnswer" Canvas.Left="211" TextWrapping="Wrap" Text="" Canvas.Top="158" Width="55"/>
     </Canvas>
 
 </Window>
