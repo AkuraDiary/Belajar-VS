@@ -50,6 +50,18 @@
 
         txtOutput &= "Random = " & String.Format("{0:0000.0}", decRandNum) & Environment.NewLine
 
+        txtOutput &= "is in String = " & InStr(1, someString, "i", CompareMethod.Text) & Environment.NewLine
+
+        'arrays
+        Dim arrayEmployees(0 To 2) As String
+        arrayEmployees(0) = "Bob"
+        arrayEmployees(1) = "Sally"
+        arrayEmployees(2) = "Paul"
+
+        Dim strEmployees As String = Join(arrayEmployees, ", ")
+
+        txtOutput &= "Employees = " & strEmployees & Environment.NewLine
+
         TextBox1.Text = txtOutput
 
     End Sub
