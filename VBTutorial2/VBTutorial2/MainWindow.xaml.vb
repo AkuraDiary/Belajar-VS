@@ -46,6 +46,10 @@
         Dim decRandNum As Decimal = 3123.14159
         txtOutput &= "Value = " & String.Format("{0:n3}", decRandNum) & Environment.NewLine
 
+        txtOutput &= "Currency = " & String.Format("{0:c}", decRandNum) & Environment.NewLine
+
+        txtOutput &= "Random = " & String.Format("{0:0000.0}", decRandNum) & Environment.NewLine
+
         TextBox1.Text = txtOutput
 
     End Sub
