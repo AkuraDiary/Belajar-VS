@@ -81,6 +81,24 @@
 
         txtOutput &= "Trim = " & Trim("   String   ") & Environment.NewLine
 
+        'Dates
+
+        Dim dteCurrent As Date = Now
+
+        txtOutput &= "Day = " & dteCurrent.Day & Environment.NewLine
+        txtOutput &= "Day = " & dteCurrent.ToString("dddd") & Environment.NewLine
+
+        txtOutput &= "Month = " & dteCurrent.Month & Environment.NewLine
+        txtOutput &= "Month = " & dteCurrent.ToString("MMMM") & Environment.NewLine
+
+        txtOutput &= "Year = " & dteCurrent.Year & Environment.NewLine
+
+        txtOutput &= "Hour  = " & dteCurrent.Hour & Environment.NewLine
+
+        txtOutput &= "Minute = " & dteCurrent.Minute & Environment.NewLine
+
+        txtOutput &= "Second = " & dteCurrent.Second & Environment.NewLine
+
         TextBox1.Text = txtOutput
 
     End Sub
