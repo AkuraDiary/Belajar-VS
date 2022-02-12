@@ -28,8 +28,25 @@
         ' Round a Decimal or Double
         txtOutput &= "Round(4.5) = " & Math.Round(4.5) & Environment.NewLine
 
+        Dim randInt As Integer = 10
+        randInt += 10
+        txtOutput &= "10 + 10 = " & randInt & Environment.NewLine
 
+        randInt *= 0.13
+        txtOutput &= "20 * .13 = " & randInt & Environment.NewLine
+
+        Dim someString As String = "This is a string"
+        txtOutput &= "someString length = " & someString.Length & Environment.NewLine
+
+        txtOutput &= "1st 3 letters = " & someString.Substring(0, 3) & Environment.NewLine
+
+        someString = someString.Replace("string", "sentence")
+        txtOutput &= "Changed String = " & someString & Environment.NewLine
+
+        Dim decRandNum As Decimal = 3123.14159
+        txtOutput &= "Value = " & String.Format("{0:n3}", decRandNum) & Environment.NewLine
 
         TextBox1.Text = txtOutput
+
     End Sub
 End Class
