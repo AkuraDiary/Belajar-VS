@@ -130,8 +130,9 @@
         Return num1 + num2
     End Function
 
-    Private Sub ChangeVal(intval As Integer)
-        intval = 20
+    Private Sub ChangeVal(ByRef intval As Integer)
+        'ByRef is used to actually passed the variable itself and not the value of the var
+        intval = 30
         MessageBox.Show("intVal in Func1 = " & intval & Environment.NewLine)
     End Sub
 
