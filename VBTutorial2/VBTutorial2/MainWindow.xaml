@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VBTutorial2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="225" Width="286" Background="#FF10151B">
+        Title="MainWindow" Height="318" Width="398" Background="#FF10151B">
     <Canvas x:Name="MainWindow1">
-        <TextBox x:Name="TextBox1" Canvas.Left="20" TextWrapping="Wrap" Text="TextBox" Canvas.Top="10" Width="245" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" Height="128"/>
-        <Button x:Name="btnUpdate" Content="Update" Canvas.Left="20" Canvas.Top="155"/>
+        <TextBox x:Name="TextBox1" Canvas.Left="20" TextWrapping="Wrap" Text="TextBox" Canvas.Top="10" Width="341" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" Height="216"/>
+        <Button x:Name="btnUpdate" Content="Update" Canvas.Left="20" Canvas.Top="245"/>
     </Canvas>
 </Window>

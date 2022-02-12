@@ -99,7 +99,40 @@
 
         txtOutput &= "Second = " & dteCurrent.Second & Environment.NewLine
 
+        Dim dteVerryImportantdate As Date = #06/06/2005#
+        txtOutput &= "Important Date to long time string (will be 00:00:00 because i don't define it)= " &
+            dteVerryImportantdate.ToLongTimeString &
+            Environment.NewLine &
+        "Important Date to long date string= " & dteVerryImportantdate.ToLongDateString &
+            Environment.NewLine
+
+        ShowMessages()
+
+        txtOutput &= "6 + 5 = " & GetSum(6, 5) & Environment.NewLine
+
+        Dim intVal As Integer = 10
+
+        ChangeVal(intVal)
+
+        txtOutput &= "intVal out of func 1 = " & intVal & Environment.NewLine
+
         TextBox1.Text = txtOutput
 
     End Sub
+
+    'this is subroutine (it doesn't return a value)
+    Private Sub ShowMessages()
+        MessageBox.Show("Love You", "Hello Again")
+    End Sub
+
+    'this is a function, yes, it's returns a value
+    Private Function GetSum(num1 As Integer, num2 As Integer)
+        Return num1 + num2
+    End Function
+
+    Private Sub ChangeVal(intval As Integer)
+        intval = 20
+        MessageBox.Show("intVal in Func1 = " & intval & Environment.NewLine)
+    End Sub
+
 End Class
