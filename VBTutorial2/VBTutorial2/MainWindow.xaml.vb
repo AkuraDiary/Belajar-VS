@@ -116,6 +116,8 @@
 
         txtOutput &= "intVal out of func 1 = " & intVal & Environment.NewLine
 
+        txtOutput &= "1 + 2 + 3 + 4 = " & getSumMore(1, 2, 3, 4) & Environment.NewLine
+
         TextBox1.Text = txtOutput
 
     End Sub
@@ -135,5 +137,16 @@
         intval = 30
         MessageBox.Show("intVal in Func1 = " & intval & Environment.NewLine)
     End Sub
+
+    ' args* parameter (we don't know how much the parameter is)
+    Private Function getSumMore(ByVal ParamArray Numbers() As Integer)
+        Dim sum As Integer = 0
+
+        For i As Integer = 0 To Numbers.Length
+            sum += i
+        Next
+
+        Return sum
+    End Function
 
 End Class
