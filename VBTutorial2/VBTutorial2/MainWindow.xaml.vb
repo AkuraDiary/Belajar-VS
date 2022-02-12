@@ -69,6 +69,18 @@
             txtOutput &= "Employee = " & arrayEmployees(i) & Environment.NewLine
         Next
 
+        'left right, up low, reverse
+        txtOutput &= "Left 3 = " & Strings.Left(someString, 3) & Environment.NewLine
+        txtOutput &= "Right 3 = " & Strings.Right(someString, 3) & Environment.NewLine
+        txtOutput &= "Uppercase = " & Strings.UCase(someString) & Environment.NewLine
+        txtOutput &= "Lowercase = " & Strings.LCase(someString) & Environment.NewLine
+        txtOutput &= "Reverse = " & Strings.StrReverse(someString) & Environment.NewLine
+
+        'comparing
+        txtOutput &= "Dog Compared to Cat = " & StrComp("Dog", "Cat", CompareMethod.Text) & Environment.NewLine
+
+        txtOutput &= "Trim = " & Trim("   String   ") & Environment.NewLine
+
         TextBox1.Text = txtOutput
 
     End Sub
