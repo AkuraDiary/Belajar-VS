@@ -62,6 +62,13 @@
 
         txtOutput &= "Employees = " & strEmployees & Environment.NewLine
 
+        arrayEmployees = Split(strEmployees, ", ")
+
+        'accessing value trough loop
+        For i As Integer = 0 To arrayEmployees.Length - 1
+            txtOutput &= "Employee = " & arrayEmployees(i) & Environment.NewLine
+        Next
+
         TextBox1.Text = txtOutput
 
     End Sub
