@@ -26,6 +26,32 @@
                 Environment.NewLine
         End If
 
+        Dim strName As String = "Derek"
+
+        If String.Compare("DEREK", strName, True) = 0 Then
+            txtOutput &= "These Strings are equal" &
+                Environment.NewLine
+        End If
+
+        Select Case intAge
+            Case 1, 2, 3, 4
+                txtOutput &= "Too young for school" &
+                Environment.NewLine
+            Case 5
+                txtOutput &= "Go To Kindergarten" &
+                Environment.NewLine
+            Case 6 To 18
+                Dim intGrade = intAge - 5
+                txtOutput &= "Go To Grade " & intGrade &
+                    Environment.NewLine
+            Case Else
+                txtOutput &= "Go to College" & Environment.NewLine
+        End Select
+
+        Dim boolCanVote As Boolean = If(intAge >= 18, True, False) 'ternary operator
+
+        txtOutput &= "Can You Vote : " & boolCanVote & Environment.NewLine
+
         TextBoxOutput.Text = txtOutput
 
     End Sub
