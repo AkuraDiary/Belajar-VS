@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class User
+namespace CodeFirstNewDatabaseSample
+{
+    public class User
     {
         public string Username { get; set; }
         public string DisplayName { get; set; }
     }
+}
