@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
 
+
 namespace CodeFirstNewDatabaseSample
 {
     public class BloggingContext : DbContext
