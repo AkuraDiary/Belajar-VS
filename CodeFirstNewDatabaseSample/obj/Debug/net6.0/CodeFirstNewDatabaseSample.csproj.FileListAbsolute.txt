@@ -1,0 +1,15 @@
+D:\VSProject\CodeFirstNewDatabaseSample\bin\Debug\net6.0\CodeFirstNewDatabaseSample.exe
+D:\VSProject\CodeFirstNewDatabaseSample\bin\Debug\net6.0\CodeFirstNewDatabaseSample.deps.json
+D:\VSProject\CodeFirstNewDatabaseSample\bin\Debug\net6.0\CodeFirstNewDatabaseSample.runtimeconfig.json
+D:\VSProject\CodeFirstNewDatabaseSample\bin\Debug\net6.0\CodeFirstNewDatabaseSample.dll
+D:\VSProject\CodeFirstNewDatabaseSample\bin\Debug\net6.0\CodeFirstNewDatabaseSample.pdb
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.csproj.AssemblyReference.cache
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.AssemblyInfoInputs.cache
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.AssemblyInfo.cs
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.csproj.CoreCompileInputs.cache
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.dll
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\refint\CodeFirstNewDatabaseSample.dll
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.pdb
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\CodeFirstNewDatabaseSample.genruntimeconfig.cache
+D:\VSProject\CodeFirstNewDatabaseSample\obj\Debug\net6.0\ref\CodeFirstNewDatabaseSample.dll
